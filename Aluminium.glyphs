@@ -1,7 +1,12 @@
 {
 .appVersion = "1256";
+DisplayStrings = (
+g
+);
+copyright = "Copyright (C) 2019 Xiangdong Zeng";
 date = "2019-08-21 03:57:35 +0000";
-familyName = "New Font";
+designer = "Xiangdong Zeng";
+familyName = Aluminium;
 fontMaster = (
 {
 alignmentZones = (

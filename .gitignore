@@ -1,2 +1,6 @@
 .DS_Store
+*.aux
+*.log
+*.otf
+*.pdf
 *(Autosaved).glyphs
