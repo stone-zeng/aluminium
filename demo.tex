@@ -1,21 +1,122 @@
-\documentclass{beamer}
-\usepackage{fontspec,lipsum}
+\documentclass[aspectratio=141]{beamer}
+\usepackage{fontspec,lipsum,pdfpages,unicode-math}
+
+\makeatletter
+\@namedef{ver@beamerfontthememetropolis.sty}{9999/99/99}
+\makeatother
+\usetheme{metropolis}
 \usefonttheme{serif,professionalfonts}
-\setbeamerfont{title}{size=\fontsize{50}{60}\selectfont}
-\setbeamerfont{author}{size=\Large}
 
-\setmainfont{Aluminium-Regular.otf}
+\setbeamerfont{title}{size=\fontsize{40}{48}\selectfont}
+\setbeamerfont{author}{size=\LARGE}
+\setbeamerfont{date}{size=\large}
+\setbeamerfont{frametitle}{size=\huge}
+\setbeamertemplate{frame numbering}[none]
 
-\title{Aluminium}
+\setmainfont{Aluminium-Regular.otf}[BoldFont=*]
+\setmathfont{LibertinusMath-Regular.otf}
+
+\def\QuickFox#1{{%
+  \makebox[1em][r]{#1\,pt}\quad
+  \fontsize{#1}{10}\selectfont
+  The quick brown fox jumps over the lazy dog.\par}}
+\def\TO{~~$\to$~~}
+
+\title{Aluminium Typeface}
 \author{Xiangdong Zeng}
-\date{}
 
 \begin{document}
 
 \maketitle
 
-\begin{frame}
-\lipsum[1-2]
+\begin{frame}{Hamburgefonstiv and POSTDAM}
+  \begin{columns}[b]
+    \begin{column}{\textwidth}
+      \linespread{2.5}\selectfont
+      \QuickFox{32}
+      \QuickFox{24}
+      \QuickFox{18}\vspace{-0.8ex}
+      \QuickFox{14}\vspace{-1.0ex}
+      \QuickFox{12}\vspace{-1.2ex}
+      \QuickFox{10}\vspace{-1.4ex}
+      \QuickFox{8}\vspace{-1.6ex}
+      \QuickFox{7}\vspace{-1.8ex}
+      \QuickFox{6}
+    \end{column}
+    \hspace{-.45\textwidth}
+    \begin{column}{.35\textwidth}
+      \fontsize{16}{16}\selectfont\centering
+      \makebox[\textwidth][s]{A B C D E F G H I J K L M}   \\
+      \makebox[\textwidth][s]{N O P Q R S T U V W X Y Z}   \\
+      \makebox[\textwidth][s]{a b c d e f g h i j k l m n} \\
+      \makebox[\textwidth][s]{( o p q r s t u v w x y z )} \\
+      \makebox[\textwidth][s]{0 1 2 3 4 5 6 7 8 9 . , : ;}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Lorem ipsum}
+  \fontsize{24}{22}\selectfont
+  \lipsum[1][1-4] Donec vehicula.
+  \vspace{0.2cm}
+
+  \fontsize{12}{12}\selectfont
+  \lipsum[2][1-11]
+  \vspace{0.2cm}
+
+  \fontsize{7}{8}\selectfont
+  \lipsum*[3]
+  \lipsum*[4][1-10]
+\end{frame}
+
+\begin{frame}{OpenType Features}
+  \LARGE\centering
+  \begin{tabular}{lc}
+    Standard ligatures &
+      \parbox{4.6em}{
+        \centering
+        \alert{f\hbox{}i}gure \alert{f\hbox{}j}eld shel\alert{f‌\hbox{}f}ul \\[-0.6ex]
+        di\alert{f\hbox{}f\hbox{}i}cult ru\alert{f\hbox{}f\hbox{}l}e}
+      \TO
+      \parbox{4.6em}{
+        \centering
+        figure fjeld shelfful \\[-0.6ex]
+        difficult ruffle}
+      \\[2ex]
+    Case-sensitive forms &
+      \parbox{3em}{
+        \centering
+        \alert{(}ABC\alert{-}DEF\alert{)} \\[-0.6ex]
+        3.141592\alert{(}7\alert{)}}  
+      \TO
+      \parbox{3em}{
+        \centering
+        \addfontfeature{Letters=Uppercase}
+        (ABC-DEF) \\[-0.6ex]
+        3.141592(7)}
+      \\[2ex]
+    Tabular figures &
+      \parbox{1.3em}{
+        12345\alert{\rule[-0.02em]{0.1em}{0.73em}} \\[-0.6ex]
+        67890}
+      \TO
+      \parbox{1.3em}{
+        \addfontfeature{Numbers=Monospaced}
+        12345 \\[-0.6ex]
+        67890}
+      \\[2ex]
+    Stylistic set 1 &
+      \alert{afra}id p\alert{r}o\alert{j}ecto\alert{r} \alert{y}um \alert{fj}o\alert{r}d
+      \TO
+      \addfontfeature{StylisticSet=1}
+      afraid projector yum fjord
+      \\[0.5ex]
+    Stylistic set 2 &
+      sin\alert{g}le li\alert{ga}ture
+      \TO
+      \addfontfeature{StylisticSet=2}
+      single ligature
+  \end{tabular}
 \end{frame}
 
 \end{document}
