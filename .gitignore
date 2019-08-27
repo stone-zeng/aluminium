@@ -1,11 +1,11 @@
 .DS_Store
 *.aux
 *.log
-*.md
 *.nav
 *.otf
 *.out
 *.pdf
 *.snm
 *.toc
+*.ttf
 *(Autosaved).glyphs
