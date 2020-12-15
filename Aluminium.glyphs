@@ -1,10 +1,7 @@
 {
-.appVersion = "1256";
-DisplayStrings = (
-ABCDAMEFGHIJKLMNOAPAQARSTUVWXYZ
-);
-copyright = "Copyright (C) 2019 Xiangdong Zeng";
-date = "2019-08-21 03:57:35 +0000";
+.appVersion = "1350";
+copyright = "Copyright © 2019–2020 by Xiangdong Zeng. All rights reserved.";
+date = "2020-12-15 18:22:22 +0000";
 designer = "Xiangdong Zeng";
 familyName = Aluminium;
 featurePrefixes = (
@@ -55,7 +52,7 @@ xHeight = 500;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2019-08-24 02:46:16 +0000";
+lastChange = "2020-03-29 08:50:04 +0000";
 layers = (
 {
 hints = (
@@ -742,7 +739,7 @@ unicode = 004A;
 },
 {
 glyphname = K;
-lastChange = "2019-08-24 01:30:07 +0000";
+lastChange = "2020-03-29 08:41:47 +0000";
 layers = (
 {
 background = {
@@ -5338,13 +5335,13 @@ unicode = 0307;
 {
 export = 0;
 glyphname = _corner.serif;
-lastChange = "2019-08-24 01:30:07 +0000";
+lastChange = "2020-03-29 08:53:59 +0000";
 layers = (
 {
 anchors = (
 {
 name = left;
-position = "{0, 7}";
+position = "{0, 10}";
 },
 {
 name = origin;
