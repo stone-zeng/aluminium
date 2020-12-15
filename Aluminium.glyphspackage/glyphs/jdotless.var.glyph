@@ -1,0 +1,54 @@
+{
+glyphname = jdotless.var;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,2);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,-100,l),
+(110,500,l),
+(50,500,l),
+(50,-100,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(110,-248,o),
+(110,-153,o),
+(110,-120,cs),
+(110,-80,l),
+(50,-80,l),
+(50,-130,ls),
+(50,-179,o),
+(50,-232,o),
+(7,-232,cs),
+(-36,-232,o),
+(-36,-179,o),
+(-36,-120,cs),
+(-36,-100,l),
+(-96,-100,l),
+(-96,-120,ls),
+(-96,-173,o),
+(-96,-248,o),
+(4,-248,cs)
+);
+}
+);
+width = 150;
+}
+);
+metricLeft = j;
+metricRight = jdotless;
+}

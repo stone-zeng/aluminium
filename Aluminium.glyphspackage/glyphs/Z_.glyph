@@ -1,0 +1,36 @@
+{
+glyphname = Z;
+layers = (
+{
+hints = (
+{
+name = _corner.vertserif;
+options = 1;
+origin = (0,7);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,0,l),
+(244,120,l),
+(182,120,l),
+(182,16,l),
+(82,16,l),
+(252,700,l),
+(30,700,l),
+(30,684,l),
+(183,684,l),
+(10,0,l)
+);
+}
+);
+width = 264;
+}
+);
+unicode = 90;
+}

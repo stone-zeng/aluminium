@@ -1,0 +1,57 @@
+{
+glyphname = J;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (1,3);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(186,140,l),
+(248,140,l),
+(248,700,l),
+(186,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(40,140,l),
+(102,140,l),
+(102,180,l),
+(40,180,l)
+);
+},
+{
+pos = (40,160);
+ref = _part.uppercase2;
+scale = (1,-1);
+}
+);
+width = 288;
+}
+);
+metricRight = U;
+unicode = 74;
+}

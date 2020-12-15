@@ -1,0 +1,22 @@
+{
+glyphname = colon;
+kernLeft = colon;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+pos = (0,240);
+ref = period;
+},
+{
+ref = period;
+}
+);
+width = 156;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 58;
+}

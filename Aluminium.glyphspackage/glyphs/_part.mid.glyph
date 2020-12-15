@@ -1,0 +1,86 @@
+{
+export = 0;
+glyphname = _part.mid;
+layers = (
+{
+anchors = (
+{
+name = height;
+pos = (80,500);
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+partSelection = {
+height = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,140,l),
+(60,360,l),
+(0,360,l),
+(0,140,l)
+);
+},
+{
+pos = (160,340);
+ref = _part.lowercase1;
+scale = (-1,1);
+},
+{
+angle = 180;
+pos = (160,160);
+ref = _part.lowercase1;
+}
+);
+width = 160;
+},
+{
+anchors = (
+{
+name = height;
+pos = (80,320);
+}
+);
+associatedMasterId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+layerId = "98FA0C9B-963D-4E92-AD2B-AAEB357B0E02";
+name = short;
+partSelection = {
+height = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(60,130,l),
+(60,190,l),
+(0,190,l),
+(0,130,l)
+);
+},
+{
+pos = (160,160);
+ref = _part.lowercase1;
+scale = (-1,1);
+},
+{
+angle = 180;
+pos = (160,160);
+ref = _part.lowercase1;
+}
+);
+visible = 1;
+width = 160;
+}
+);
+partsSettings = (
+{
+bottomName = Low;
+bottomValue = 60;
+name = height;
+topName = High;
+topValue = 100;
+}
+);
+}

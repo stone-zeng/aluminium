@@ -1,0 +1,68 @@
+{
+glyphname = Y;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,1);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,0);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,7);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,8);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,0,l),
+(141,0,l),
+(141,343,l),
+(36,700,l),
+(104,700,l),
+(199,375,l),
+(184,375,l),
+(265,700,l),
+(287,700,l),
+(203,364,l)
+);
+}
+);
+width = 323;
+}
+);
+metricRight = "=|";
+unicode = 89;
+}

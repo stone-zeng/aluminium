@@ -1,0 +1,65 @@
+{
+export = 0;
+glyphname = _part.fligavar1;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,3);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,580,l),
+(40,580,l),
+(40,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-10,484,l),
+(210,484,l),
+(210,500,l),
+(-10,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,610,ls),
+(100,659,o),
+(104,712,o),
+(159,712,cs),
+(210,712,o),
+(210,665,o),
+(210,610,c),
+(270,610,l),
+(270,649,o),
+(270,728,o),
+(160,728,cs),
+(40,728,o),
+(40,633,o),
+(40,600,cs),
+(40,560,l),
+(100,560,l)
+);
+}
+);
+width = 250;
+}
+);
+}

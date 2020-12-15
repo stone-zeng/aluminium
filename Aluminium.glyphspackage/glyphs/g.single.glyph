@@ -1,0 +1,37 @@
+{
+glyphname = g.single;
+kernLeft = o;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+origin = (0,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,-100,l),
+(240,500,l),
+(180,500,l),
+(180,-100,l)
+);
+},
+{
+pos = (40,0);
+ref = _part.mid;
+},
+{
+pos = (40,-80);
+ref = _part.lowercase2;
+scale = (1,-1);
+}
+);
+width = 280;
+}
+);
+}

@@ -1,0 +1,24 @@
+{
+glyphname = W;
+kernLeft = V;
+kernRight = V;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+alignment = -1;
+ref = V;
+},
+{
+pos = (208,0);
+ref = V;
+}
+);
+width = 540;
+}
+);
+metricLeft = V;
+metricRight = V;
+unicode = 87;
+}

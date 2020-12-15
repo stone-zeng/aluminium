@@ -1,0 +1,34 @@
+{
+export = 0;
+glyphname = _corner.vertserif;
+layers = (
+{
+anchors = (
+{
+name = left;
+pos = (0,7);
+},
+{
+name = origin;
+},
+{
+name = right;
+pos = (10,0);
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 0;
+nodes = (
+(0,24,l),
+(-60,24,l),
+(-60,0,l),
+(15,0,l)
+);
+}
+);
+width = 25;
+}
+);
+}

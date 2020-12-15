@@ -1,0 +1,20 @@
+{
+glyphname = j.var;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+pos = (32,0);
+ref = dotaccentcomb;
+},
+{
+ref = jdotless.var;
+}
+);
+width = 150;
+}
+);
+metricLeft = j;
+metricRight = j;
+}

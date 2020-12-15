@@ -1,0 +1,23 @@
+{
+glyphname = f_f;
+kernLeft = f;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+alignment = -1;
+pos = (170,0);
+ref = f;
+},
+{
+pos = (20,0);
+ref = _part.fliga2;
+}
+);
+width = 380;
+}
+);
+metricLeft = f;
+metricRight = f;
+}

@@ -1,0 +1,39 @@
+{
+export = 0;
+glyphname = _part.top;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,0,l),
+(160,360,l),
+(100,360,l),
+(100,0,l)
+);
+},
+{
+pos = (0,340);
+ref = _part.lowercase1;
+}
+);
+width = 160;
+}
+);
+}

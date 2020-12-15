@@ -1,0 +1,46 @@
+{
+glyphname = idotless;
+kernLeft = n;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,2);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,3);
+scale = (-1,-1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,500,l),
+(40,500,l),
+(40,0,l)
+);
+}
+);
+width = 140;
+}
+);
+metricLeft = i;
+metricRight = i;
+unicode = 305;
+}

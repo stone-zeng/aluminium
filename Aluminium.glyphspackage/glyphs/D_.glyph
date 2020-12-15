@@ -1,0 +1,56 @@
+{
+glyphname = D;
+kernRight = O;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(102,0,l),
+(102,700,l),
+(40,700,l),
+(40,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(248,148,l),
+(248,552,l),
+(186,552,l),
+(186,148,l)
+);
+},
+{
+pos = (80,532);
+ref = _part.uppercase1;
+},
+{
+pos = (80,168);
+ref = _part.uppercase1;
+scale = (1,-1);
+}
+);
+width = 288;
+}
+);
+metricLeft = H;
+metricRight = O;
+unicode = 68;
+}

@@ -1,0 +1,52 @@
+{
+glyphname = T;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+origin = (0,2);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,3);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.vertserif;
+options = 1;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.vertserif;
+origin = (0,5);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-6,684,l),
+(86,684,l),
+(86,0,l),
+(148,0,l),
+(148,684,l),
+(240,684,l),
+(240,700,l),
+(-6,700,l)
+);
+}
+);
+width = 234;
+}
+);
+metricRight = "=|";
+unicode = 84;
+}

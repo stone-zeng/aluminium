@@ -1,0 +1,325 @@
+{
+.appVersion = "3044";
+.formatVersion = 3;
+date = "2020-12-15 18:22:22 +0000";
+familyName = Aluminium;
+featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "sub f f by f_f;
+sub f i by f_i;
+sub f j by f_j;
+sub f l by f_l;
+sub f f i by f_f_i;
+sub f f j by f_f_j;
+sub f f l by f_f_l;
+sub f.var f.var by f_f.var;
+sub f.var i by f_i.var;
+sub f.var j.var by f_j.var;
+sub f.var l by f_l.var;
+sub f.var f.var i by f_f_i.var;
+sub f.var f.var j.var by f_f_j.var;
+sub f.var f.var l by f_f_l.var;
+";
+tag = liga;
+},
+{
+code = "sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub hyphen by hyphen.case;
+";
+tag = case;
+},
+{
+code = "sub zero by zero.tnum;
+sub one by one.tnum;
+sub two by two.tnum;
+sub three by three.tnum;
+sub four by four.tnum;
+sub five by five.tnum;
+sub six by six.tnum;
+sub seven by seven.tnum;
+sub eight by eight.tnum;
+sub nine by nine.tnum;
+";
+tag = tnum;
+},
+{
+code = "sub a by a.var;
+sub f by f.var;
+sub j by j.var;
+sub jdotless by jdotless.var;
+sub r by r.var;
+sub y by y.var;
+sub f_f by f_f.var;
+sub f_i by f_i.var;
+sub f_j by f_j.var;
+sub f_l by f_l.var;
+sub f_f_i by f_f_i.var;
+sub f_f_j by f_f_j.var;
+sub f_f_l by f_f_l.var;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss01;
+},
+{
+code = "sub a by a.single;
+sub g by g.single;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss02;
+}
+);
+fontMaster = (
+{
+id = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+metricValues = (
+{
+over = 8;
+pos = 720;
+},
+{
+over = 8;
+pos = 700;
+},
+{
+over = 8;
+pos = 500;
+},
+{
+over = -8;
+},
+{
+over = -8;
+pos = -240;
+}
+);
+name = Regular;
+visible = 1;
+}
+);
+instances = (
+{
+instanceInterpolations = {
+"B8B720EE-CA8B-4072-B286-8C23F1A5F625" = 1;
+};
+name = Regular;
+}
+);
+kerningLTR = {
+"B8B720EE-CA8B-4072-B286-8C23F1A5F625" = {
+"@MMK_L_O" = {
+A = -30;
+};
+"@MMK_L_V" = {
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_peroid" = -50;
+A = -60;
+J = -40;
+d = -30;
+four = -30;
+};
+"@MMK_L_f" = {
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_peroid" = -20;
+"@MMK_R_v" = -20;
+hyphen = -20;
+z = -10;
+};
+"@MMK_L_n" = {
+"@MMK_R_v" = -20;
+t = -20;
+};
+"@MMK_L_o" = {
+t = -20;
+};
+"@MMK_L_r" = {
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -25;
+"@MMK_R_v" = -31;
+d = -20;
+hyphen = -30;
+period = -40;
+s = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_o" = -10;
+"@MMK_R_peroid" = -40;
+"@MMK_R_v" = -20;
+A = -40;
+hyphen = -30;
+seven = -40;
+};
+"@MMK_L_x" = {
+hyphen = -20;
+t = -10;
+};
+A = {
+"@MMK_R_V" = -60;
+"@MMK_R_v" = -60;
+T = -30;
+f = -20;
+t = -20;
+};
+C = {
+"@MMK_R_v" = -20;
+};
+F = {
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_peroid" = -40;
+J = -60;
+d = -20;
+four = -30;
+i = -20;
+j = -20;
+};
+L = {
+"@MMK_R_n" = -30;
+"@MMK_R_v" = -50;
+T = -40;
+Y = -60;
+f = -30;
+t = -30;
+};
+P = {
+"@MMK_R_colon" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_peroid" = -80;
+"@MMK_R_v" = -40;
+A = -40;
+J = -60;
+four = -30;
+};
+S = {
+"@MMK_R_v" = -30;
+};
+T = {
+"@MMK_R_colon" = -20;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -30;
+"@MMK_R_peroid" = -20;
+"@MMK_R_v" = -30;
+J = -40;
+d = -20;
+four = -10;
+};
+Y = {
+"@MMK_R_colon" = -20;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -25;
+"@MMK_R_peroid" = -30;
+A = -50;
+d = -20;
+};
+c = {
+s = -10;
+};
+e = {
+s = -10;
+};
+four = {
+"@MMK_R_peroid" = -10;
+};
+hyphen = {
+"@MMK_R_v" = -30;
+x = -20;
+z = -20;
+};
+o = {
+"@MMK_R_v" = -20;
+};
+s = {
+f = -20;
+t = -20;
+};
+seven = {
+"@MMK_R_colon" = -40;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -20;
+"@MMK_R_peroid" = -60;
+"@MMK_R_v" = -20;
+x = -20;
+z = -30;
+};
+t = {
+"@MMK_R_o" = -10;
+"@MMK_R_v" = -20;
+hyphen = -30;
+t = -40;
+};
+z = {
+hyphen = -20;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2019–2020 by Xiangdong Zeng. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Xiangdong Zeng";
+}
+);
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"B8B720EE-CA8B-4072-B286-8C23F1A5F625" = {
+HH = "16";
+OH = "16";
+OV = "62";
+oH = "16";
+oV = "60";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}
