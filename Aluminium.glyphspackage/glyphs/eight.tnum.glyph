@@ -10,7 +10,7 @@ pos = (11,0);
 ref = eight;
 }
 );
-width = 280;
+width = 310;
 }
 );
 metricRight = "=|";

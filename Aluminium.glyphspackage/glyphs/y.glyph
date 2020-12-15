@@ -67,10 +67,9 @@ nodes = (
 );
 }
 );
-width = 286;
+width = 287;
 }
 );
 metricRight = v;
-metricWidth = v;
 unicode = 121;
 }
