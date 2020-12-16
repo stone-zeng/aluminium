@@ -1,8 +1,27 @@
 {
+color = 0;
 glyphname = l;
 kernLeft = h;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (70,0);
+},
+{
+name = center;
+pos = (70,360);
+},
+{
+name = top;
+pos = (70,720);
+},
+{
+name = topright;
+pos = (120,720);
+}
+);
 hints = (
 {
 name = _corner.serif;

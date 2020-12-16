@@ -1,8 +1,19 @@
 {
+color = 0;
 glyphname = B;
 kernRight = O;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (144,0);
+},
+{
+name = top;
+pos = (144,700);
+}
+);
 hints = (
 {
 name = _corner.serif;

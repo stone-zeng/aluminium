@@ -1,0 +1,11 @@
+{
+export = 0;
+glyphname = ampersand;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+width = 600;
+}
+);
+unicode = 38;
+}

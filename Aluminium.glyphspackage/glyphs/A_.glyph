@@ -1,7 +1,22 @@
 {
+color = 0;
 glyphname = A;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (175,0);
+},
+{
+name = ogonek;
+pos = (315,10);
+},
+{
+name = top;
+pos = (175,700);
+}
+);
 hints = (
 {
 name = _corner.serif;

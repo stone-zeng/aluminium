@@ -5,7 +5,7 @@ layers = (
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
-pos = (32,0);
+pos = (-68,0);
 ref = dotaccentcomb;
 },
 {

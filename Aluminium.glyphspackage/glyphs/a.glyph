@@ -1,9 +1,24 @@
 {
+color = 0;
 glyphname = a;
 kernLeft = o;
 kernRight = n;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (133,0);
+},
+{
+name = ogonek;
+pos = (239,10);
+},
+{
+name = top;
+pos = (133,500);
+}
+);
 hints = (
 {
 name = _corner.serif;

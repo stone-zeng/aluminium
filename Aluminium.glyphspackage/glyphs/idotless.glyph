@@ -3,6 +3,20 @@ glyphname = idotless;
 kernLeft = n;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (70,0);
+},
+{
+name = ogonek;
+pos = (126,10);
+},
+{
+name = top;
+pos = (70,500);
+}
+);
 hints = (
 {
 name = _corner.serif;

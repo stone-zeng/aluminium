@@ -1,7 +1,22 @@
 {
+color = 0;
 glyphname = z;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (104,0);
+},
+{
+name = center;
+pos = (104,250);
+},
+{
+name = top;
+pos = (104,500);
+}
+);
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {

@@ -1,7 +1,18 @@
 {
+color = 0;
 glyphname = P;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (134,0);
+},
+{
+name = top;
+pos = (134,700);
+}
+);
 background = {
 hints = (
 {

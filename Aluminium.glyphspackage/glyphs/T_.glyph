@@ -1,7 +1,22 @@
 {
+color = 0;
 glyphname = T;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (117,0);
+},
+{
+name = center;
+pos = (117,350);
+},
+{
+name = top;
+pos = (117,700);
+}
+);
 hints = (
 {
 name = _corner.serif;

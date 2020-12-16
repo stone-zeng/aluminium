@@ -1,0 +1,19 @@
+{
+glyphname = Ocircumflex;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (-50,200);
+ref = circumflexcomb;
+}
+);
+width = 288;
+}
+);
+unicode = 212;
+}

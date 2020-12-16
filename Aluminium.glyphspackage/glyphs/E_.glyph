@@ -1,7 +1,26 @@
 {
+color = 0;
 glyphname = E;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (124,0);
+},
+{
+name = ogonek;
+pos = (223,10);
+},
+{
+name = top;
+pos = (124,700);
+},
+{
+name = topleft;
+pos = (20,700);
+}
+);
 hints = (
 {
 name = _corner.serif;

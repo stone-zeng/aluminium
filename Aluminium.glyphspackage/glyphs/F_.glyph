@@ -1,7 +1,18 @@
 {
+color = 0;
 glyphname = F;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (130,0);
+},
+{
+name = top;
+pos = (130,700);
+}
+);
 background = {
 hints = (
 {

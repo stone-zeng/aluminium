@@ -1,7 +1,26 @@
 {
+color = 0;
 glyphname = t;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (105,0);
+},
+{
+name = center;
+pos = (105,250);
+},
+{
+name = top;
+pos = (105,500);
+},
+{
+name = topright;
+pos = (190,500);
+}
+);
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {

@@ -1,7 +1,14 @@
 {
+color = 0;
 glyphname = i;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (70,0);
+}
+);
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
@@ -9,7 +16,7 @@ alignment = -1;
 ref = idotless;
 },
 {
-pos = (22,0);
+pos = (-75,0);
 ref = dotaccentcomb;
 }
 );

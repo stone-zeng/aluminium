@@ -1,9 +1,20 @@
 {
+color = 0;
 glyphname = W;
 kernLeft = V;
 kernRight = V;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top;
+pos = (270,700);
+}
+);
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {

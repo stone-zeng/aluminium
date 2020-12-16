@@ -1,0 +1,19 @@
+{
+glyphname = igrave;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-125,0);
+ref = gravecomb;
+}
+);
+width = 140;
+}
+);
+unicode = 236;
+}

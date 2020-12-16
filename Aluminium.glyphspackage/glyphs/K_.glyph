@@ -1,7 +1,18 @@
 {
+color = 0;
 glyphname = K;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (149,0);
+},
+{
+name = top;
+pos = (149,700);
+}
+);
 background = {
 hints = (
 {

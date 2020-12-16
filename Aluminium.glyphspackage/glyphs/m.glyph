@@ -1,9 +1,20 @@
 {
+color = 0;
 glyphname = m;
 kernLeft = n;
 kernRight = n;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (210,0);
+},
+{
+name = top;
+pos = (210,500);
+}
+);
 background = {
 shapes = (
 {

@@ -1,7 +1,26 @@
 {
+color = 0;
 glyphname = I;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (71,0);
+},
+{
+name = ogonek;
+pos = (128,10);
+},
+{
+name = top;
+pos = (71,700);
+},
+{
+name = topleft;
+pos = (20,700);
+}
+);
 hints = (
 {
 name = _corner.serif;
