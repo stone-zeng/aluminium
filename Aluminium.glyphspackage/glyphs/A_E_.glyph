@@ -1,11 +1,49 @@
 {
-export = 0;
 glyphname = AE;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+hints = (
+{
+name = _corner.serif;
+origin = (0,3);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
 }
 );
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,0,l),
+(242,700,l),
+(218,700,l),
+(29,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(230,284,l),
+(230,300,l),
+(122,300,l),
+(122,284,l)
+);
+},
+{
+pos = (178,0);
+ref = E;
+}
+);
+width = 426;
+}
+);
+metricRight = E;
 unicode = 198;
 }

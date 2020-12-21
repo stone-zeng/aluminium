@@ -1,11 +1,26 @@
 {
-export = 0;
 glyphname = Lslash;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+ref = L;
+},
+{
+closed = 1;
+nodes = (
+(180,436,l),
+(180,453,l),
+(0,377,l),
+(0,360,l)
+);
 }
 );
+width = 268;
+}
+);
+metricLeft = "=L-10";
+metricRight = L;
 unicode = 321;
 }

@@ -1,10 +1,23 @@
 {
-export = 0;
 glyphname = Oslash;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,-75,l),
+(244,770,l),
+(224,775,l),
+(44,-70,l)
+);
+},
+{
+ref = O;
+}
+);
+width = 288;
 }
 );
 unicode = 216;

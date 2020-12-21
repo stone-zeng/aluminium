@@ -1,11 +1,26 @@
 {
-export = 0;
 glyphname = Eth;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(142,390,l),
+(142,406,l),
+(0,406,l),
+(0,390,l)
+);
+},
+{
+ref = D;
 }
 );
+width = 288;
+}
+);
+metricLeft = "=D-10";
+metricRight = D;
 unicode = 208;
 }

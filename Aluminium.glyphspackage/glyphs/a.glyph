@@ -73,8 +73,9 @@ nodes = (
 );
 },
 {
+alignment = -1;
 piece = {
-height = 60.03975;
+height = 60;
 };
 pos = (25,0);
 ref = _part.mid;

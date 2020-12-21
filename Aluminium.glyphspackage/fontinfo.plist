@@ -1,5 +1,5 @@
 {
-.appVersion = "3044";
+.appVersion = "3046";
 .formatVersion = 3;
 date = "2020-12-15 18:22:22 +0000";
 familyName = Aluminium;
@@ -88,6 +88,12 @@ tag = ss02;
 );
 fontMaster = (
 {
+guides = (
+{
+locked = 1;
+pos = (0,620);
+}
+);
 id = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 metricValues = (
 {

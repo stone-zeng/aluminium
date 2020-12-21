@@ -1,10 +1,18 @@
 {
-export = 0;
 glyphname = atilde;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (-59,0);
+ref = tildecomb;
+}
+);
+width = 265;
 }
 );
 unicode = 227;
