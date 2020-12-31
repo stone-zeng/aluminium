@@ -3,6 +3,16 @@ glyphname = y.var;
 kernLeft = n;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (140,0);
+},
+{
+name = top;
+pos = (140,500);
+}
+);
 hints = (
 {
 name = _corner.serif;

@@ -5,7 +5,11 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (194,500);
+pos = (186,500);
+},
+{
+name = top;
+pos = (186,663);
 }
 );
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
@@ -16,7 +20,7 @@ ref = circumflexcomb;
 scale = (1,-1);
 }
 );
-width = 388;
+width = 372;
 }
 );
 unicode = 780;

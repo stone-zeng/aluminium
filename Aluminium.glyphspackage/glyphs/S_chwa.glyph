@@ -1,0 +1,61 @@
+{
+glyphname = Schwa;
+layers = (
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (288,700);
+ref = Schwa;
+}
+);
+};
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,140,l),
+(248,560,l),
+(186,560,l),
+(186,140,l)
+);
+},
+{
+pos = (40,160);
+ref = _part.uppercase2;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(102,140,l),
+(102,264,l),
+(196,264,l),
+(196,280,l),
+(40,280,l),
+(40,140,l)
+);
+},
+{
+pos = (40,540);
+ref = _part.uppercase2;
+},
+{
+closed = 1;
+nodes = (
+(102,520,l),
+(102,560,l),
+(40,560,l),
+(40,520,l)
+);
+}
+);
+width = 288;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 399;
+}

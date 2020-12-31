@@ -49,6 +49,7 @@ nodes = (
 );
 },
 {
+alignment = -1;
 pos = (25,0);
 ref = _part.mid;
 }

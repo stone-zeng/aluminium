@@ -1,5 +1,5 @@
 {
-.appVersion = "3046";
+.appVersion = "3047";
 .formatVersion = 3;
 date = "2020-12-15 18:22:22 +0000";
 familyName = Aluminium;
@@ -88,6 +88,16 @@ tag = ss02;
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = "Preview Ascender";
+value = 850;
+},
+{
+name = "Preview Descender";
+value = 300;
+}
+);
 guides = (
 {
 locked = 1;

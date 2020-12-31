@@ -1,10 +1,32 @@
 {
-export = 0;
 glyphname = ogonekcomb;
 layers = (
 {
+anchors = (
+{
+name = _ogonek;
+pos = (117,0);
+}
+);
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,-144,l),
+(159,-144,o),
+(134,-127,o),
+(134,-61,cs),
+(134,0,l),
+(100,0,l),
+(100,-58,ls),
+(100,-119,o),
+(118,-160,o),
+(188,-160,c)
+);
+}
+);
+width = 288;
 }
 );
 unicode = 808;

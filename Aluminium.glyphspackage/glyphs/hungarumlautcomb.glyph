@@ -1,10 +1,35 @@
 {
-export = 0;
 glyphname = hungarumlautcomb;
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (147,500);
+}
+);
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,668,l),
+(144,683,l),
+(100,560,l),
+(107,557,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(264,668,l),
+(231,683,l),
+(187,560,l),
+(194,557,l)
+);
+}
+);
+width = 364;
 }
 );
 unicode = 779;

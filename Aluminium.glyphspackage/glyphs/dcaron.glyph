@@ -1,0 +1,23 @@
+{
+glyphname = dcaron;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+alignment = -1;
+pos = (155,780);
+ref = commaaccentcomb;
+}
+);
+width = 273;
+}
+);
+metricLeft = d;
+metricRight = lcaron;
+unicode = 271;
+}

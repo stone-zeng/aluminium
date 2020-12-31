@@ -1,0 +1,46 @@
+{
+glyphname = ae.var;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+piece = {
+height = 60.03975;
+};
+pos = (25,0);
+ref = _part.mid;
+},
+{
+alignment = -1;
+pos = (140,0);
+ref = e;
+},
+{
+closed = 1;
+nodes = (
+(225,340,l),
+(225,380,ls),
+(225,413,o),
+(225,508,o),
+(129,508,cs),
+(39,508,o),
+(39,423,o),
+(39,400,c),
+(99,400,l),
+(99,439,o),
+(99,492,o),
+(132,492,cs),
+(165,492,o),
+(165,439,o),
+(165,390,cs),
+(165,340,l)
+);
+}
+);
+width = 390;
+}
+);
+metricLeft = ae;
+metricRight = ae;
+}

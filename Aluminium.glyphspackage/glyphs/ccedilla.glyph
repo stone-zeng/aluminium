@@ -1,10 +1,18 @@
 {
-export = 0;
 glyphname = ccedilla;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+ref = c;
+},
+{
+pos = (-44,0);
+ref = cedillacomb;
+}
+);
+width = 249;
 }
 );
 unicode = 231;

@@ -3,6 +3,20 @@ glyphname = a.var;
 kernLeft = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (133,0);
+},
+{
+name = ogonek;
+pos = (195,0);
+},
+{
+name = top;
+pos = (133,500);
+}
+);
 hints = (
 {
 name = _corner.serif;

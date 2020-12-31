@@ -10,11 +10,11 @@ alignment = -1;
 ref = jdotless;
 },
 {
-pos = (-68,0);
+pos = (-65,0);
 ref = dotaccentcomb;
 }
 );
-width = 150;
+width = 153;
 }
 );
 unicode = 106;

@@ -8,7 +8,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (-19,200);
+pos = (-11,200);
 ref = circumflexcomb;
 }
 );

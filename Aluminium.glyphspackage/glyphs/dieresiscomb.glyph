@@ -5,10 +5,46 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (194,500);
+pos = (168,500);
+},
+{
+name = top;
+pos = (168,652);
 }
 );
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(236,568,l),
+(236,672,l),
+(210,672,l),
+(210,568,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(126,568,l),
+(126,672,l),
+(100,672,l),
+(100,568,l)
+);
+}
+);
+width = 336;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (194,500);
+}
+);
+associatedMasterId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+layerId = "820394A4-BD3D-4808-902A-7C49E938B831";
+name = "20年12月23日 01:58";
 shapes = (
 {
 closed = 1;

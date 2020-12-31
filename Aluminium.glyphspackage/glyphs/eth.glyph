@@ -1,11 +1,65 @@
 {
-export = 0;
 glyphname = eth;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,140,l),
+(85,320,l),
+(25,320,l),
+(25,140,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,140,l),
+(225,320,l),
+(165,320,l),
+(165,140,l)
+);
+},
+{
+pos = (25,160);
+ref = _part.lowercase2;
+scale = (1,-1);
+},
+{
+pos = (25,300);
+ref = _part.lowercase2;
+},
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(225,340,ls),
+(225,544,o),
+(225,641,o),
+(65,728,c),
+(65,711,l),
+(165,638,o),
+(165,566,o),
+(165,350,cs),
+(165,300,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,550,l),
+(245,650,l),
+(245,667,l),
+(75,567,l)
+);
 }
 );
+width = 245;
+}
+);
+metricLeft = o;
+metricRight = "=0-20";
 unicode = 240;
 }

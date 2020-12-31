@@ -1,0 +1,15 @@
+{
+glyphname = Dcroat;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+ref = Eth;
+}
+);
+width = 288;
+}
+);
+unicode = 272;
+}

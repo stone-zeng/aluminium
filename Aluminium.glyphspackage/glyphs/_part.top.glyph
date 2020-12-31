@@ -29,6 +29,7 @@ nodes = (
 );
 },
 {
+alignment = -1;
 pos = (0,340);
 ref = _part.lowercase1;
 }

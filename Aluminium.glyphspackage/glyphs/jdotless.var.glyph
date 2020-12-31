@@ -2,6 +2,16 @@
 glyphname = jdotless.var;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (75,-240);
+},
+{
+name = top;
+pos = (80,500);
+}
+);
 hints = (
 {
 name = _corner.serif;

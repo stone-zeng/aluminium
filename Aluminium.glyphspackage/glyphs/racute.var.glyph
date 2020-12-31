@@ -1,0 +1,18 @@
+{
+glyphname = racute.var;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+ref = r.var;
+},
+{
+pos = (-62,0);
+ref = acutecomb;
+}
+);
+width = 218;
+}
+);
+}

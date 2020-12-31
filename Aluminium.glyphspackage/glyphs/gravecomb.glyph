@@ -5,10 +5,37 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (195,500);
+pos = (171,500);
+},
+{
+name = top;
+pos = (171,673);
 }
 );
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(242,570,l),
+(121,676,l),
+(100,646,l),
+(237,564,l)
+);
+}
+);
+width = 342;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (195,500);
+}
+);
+associatedMasterId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+layerId = "F350CBC5-7605-4426-A394-813EB5D24610";
+name = "20年12月23日 01:53";
 shapes = (
 {
 closed = 1;
@@ -20,6 +47,7 @@ nodes = (
 );
 }
 );
+visible = 1;
 width = 349;
 }
 );
