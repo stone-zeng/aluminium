@@ -11,6 +11,7 @@
 \setbeamerfont{author}{size=\LARGE}
 \setbeamerfont{date}{size=\large}
 \setbeamerfont{frametitle}{size=\huge}
+\setbeamercolor{description item}{fg=mLightBrown}
 \setbeamertemplate{frame numbering}[none]
 
 \setmainfont{Aluminium-Regular.otf}[BoldFont=*]
@@ -21,6 +22,7 @@
   \fontsize{#1}{10}\selectfont
   The quick brown fox jumps over the lazy dog.\par}}
 \def\TO{~~$\to$~~}
+\def\UPPER#1{{\addfontfeature{Letters=Uppercase}#1}}
 
 \title{Aluminium Typeface}
 \author{Xiangdong Zeng}
@@ -69,7 +71,30 @@
   \lipsum*[4][1-10]
 \end{frame}
 
-\begin{frame}{OpenType Features}
+\begin{frame}{Multiple languages}
+\begin{description}[xxxxxxxx]
+  \item[English]  The \UPPER{COVID-19} pandemic, also known as the coronavirus pandemic, is an
+                  ongoing pandemic of coronavirus disease 2019 \UPPER{(COVID-19)} caused by severe
+                  acute respiratory syndrome coronavirus 2 \UPPER{(SARS-C}o\UPPER{V-2)}.
+  \item[Français] L'Organisation mondiale de la santé (OMS) alerte dans un premier temps la
+                  République populaire de Chine et ses autres États membres, puis prononce l'état
+                  d'urgence de santé publique de portée internationale le 30 janvier 2020.
+  \item[Español]  El virus se transmite generalmente de persona a persona a través de las pequeñas
+                  gotas de saliva, conocidas como microgotas de Flügge, que se emiten al hablar,
+                  estornudar, toser o espirar.
+  \item[Deutsch]  Am 13. Januar 2020 trat in Thailand die erste durch einen Labortest bestätigte
+                  Corona-Infektion außerhalb von China auf, außerhalb Asiens erstmals am 23.
+                  Januar 2020 in den USA.
+  \item[Íslenska] Þann 22. febrúar 2021 hafa um 112 milljónir tilvik verið staðfest í yfir 200
+                  löndum og landsvæðum. Dauðsföll sem rekja má til sjúkdómsins eru 2,5 milljónir.
+                  Yfir 88 milljónir hafa náð sér af veikindum vegna veirunnar.
+  \item[Polski]   W związku z wybuchem pandemii w 177 państwach na poziomie krajowym lub lokalnym
+                  zostały zamknięte szkoły i uniwersytety, co w wymiarze globalnym w szczycie
+                  dotknęło blisko 1,27 miliarda uczniów i studentów (72,4\%).
+\end{description}
+\end{frame}
+
+\begin{frame}{OpenType features}
   \LARGE\centering
   \begin{tabular}{lc}
     Standard ligatures &
