@@ -1,5 +1,5 @@
 {
-.appVersion = "3047";
+.appVersion = "3066";
 .formatVersion = 3;
 date = "2020-12-15 18:22:22 +0000";
 familyName = Aluminium;
@@ -16,6 +16,7 @@ code = "sub f f by f_f;
 sub f i by f_i;
 sub f j by f_j;
 sub f l by f_l;
+sub f t by f_t;
 sub f f i by f_f_i;
 sub f f j by f_f_j;
 sub f f l by f_f_l;
@@ -23,6 +24,7 @@ sub f.var f.var by f_f.var;
 sub f.var i by f_i.var;
 sub f.var j.var by f_j.var;
 sub f.var l by f_l.var;
+sub f.var t by f_t.var;
 sub f.var f.var i by f_f_i.var;
 sub f.var f.var j.var by f_f_j.var;
 sub f.var f.var l by f_f_l.var;
@@ -61,6 +63,7 @@ sub f_f by f_f.var;
 sub f_i by f_i.var;
 sub f_j by f_j.var;
 sub f_l by f_l.var;
+sub f_t by f_t.var;
 sub f_f_i by f_f_i.var;
 sub f_f_j by f_f_j.var;
 sub f_f_l by f_f_l.var;
@@ -74,7 +77,7 @@ value = "";
 tag = ss01;
 },
 {
-code = "sub a by a.single;
+code = "#sub a by a.single;
 sub g by g.single;
 ";
 labels = (
@@ -84,6 +87,14 @@ value = "";
 }
 );
 tag = ss02;
+},
+{
+automatic = 1;
+code = "sub two by two.sups;
+sub six by six.sups;
+sub seven by seven.sups;
+";
+tag = sups;
 }
 );
 fontMaster = (
@@ -101,7 +112,11 @@ value = 300;
 guides = (
 {
 locked = 1;
-pos = (0,620);
+pos = (10,740);
+},
+{
+locked = 1;
+pos = (38,480);
 }
 );
 id = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
@@ -154,30 +169,35 @@ four = -30;
 };
 "@MMK_L_f" = {
 "@MMK_R_n" = -20;
-"@MMK_R_o" = -10;
+"@MMK_R_o" = -20;
 "@MMK_R_peroid" = -20;
 "@MMK_R_v" = -20;
 hyphen = -20;
 z = -10;
 };
 "@MMK_L_n" = {
+"@MMK_R_o" = 0;
 "@MMK_R_v" = -20;
-t = -20;
+s = -10;
+t = -15;
 };
 "@MMK_L_o" = {
+"@MMK_R_v" = -10;
 t = -20;
+x = -15;
 };
 "@MMK_L_r" = {
 "@MMK_R_n" = -20;
-"@MMK_R_o" = -25;
-"@MMK_R_v" = -31;
+"@MMK_R_o" = -20;
+"@MMK_R_v" = -30;
 d = -20;
+f = -15;
 hyphen = -30;
 period = -40;
 s = -20;
 };
 "@MMK_L_v" = {
-"@MMK_R_o" = -10;
+"@MMK_R_o" = -30;
 "@MMK_R_peroid" = -40;
 "@MMK_R_v" = -20;
 A = -40;
@@ -185,6 +205,7 @@ hyphen = -30;
 seven = -40;
 };
 "@MMK_L_x" = {
+"@MMK_R_v" = -30;
 hyphen = -20;
 t = -10;
 };
@@ -260,8 +281,8 @@ hyphen = {
 x = -20;
 z = -20;
 };
-o = {
-"@MMK_R_v" = -20;
+l = {
+"@MMK_R_v" = -15;
 };
 s = {
 f = -20;
@@ -277,9 +298,11 @@ x = -20;
 z = -30;
 };
 t = {
-"@MMK_R_o" = -10;
+"@MMK_R_h" = -10;
+"@MMK_R_o" = -5;
 "@MMK_R_v" = -20;
 hyphen = -30;
+i = -10;
 t = -40;
 };
 z = {
@@ -310,7 +333,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2019–2020 by Xiangdong Zeng. All rights reserved.";
+value = "Copyright © 2019–2021 by Xiangdong Zeng. All rights reserved.";
 }
 );
 },

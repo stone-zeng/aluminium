@@ -1,0 +1,31 @@
+{
+glyphname = seven.sups;
+layers = (
+{
+hints = (
+{
+name = _corner.vertserif;
+options = 1;
+origin = (0,0);
+scale = (-0.8,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,724,l),
+(127,724,l),
+(44,480,l),
+(90,480,l),
+(178,740,l),
+(20,740,l)
+);
+}
+);
+width = 198;
+}
+);
+}

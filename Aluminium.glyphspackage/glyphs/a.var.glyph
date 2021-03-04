@@ -1,6 +1,7 @@
 {
 glyphname = a.var;
 kernLeft = o;
+kernRight = n;
 layers = (
 {
 anchors = (

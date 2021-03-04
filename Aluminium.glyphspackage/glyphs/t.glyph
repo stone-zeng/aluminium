@@ -63,7 +63,7 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 200;
 }
 );
 unicode = 116;
