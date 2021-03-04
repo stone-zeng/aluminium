@@ -32,9 +32,11 @@ sub f.var f.var l by f_f_l.var;
 tag = liga;
 },
 {
-code = "sub parenleft by parenleft.case;
+automatic = 1;
+code = "sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub parenleft by parenleft.case;
 sub parenright by parenright.case;
-sub hyphen by hyphen.case;
 ";
 tag = case;
 },
@@ -235,6 +237,7 @@ L = {
 T = -40;
 Y = -60;
 f = -30;
+quoteright = -100;
 t = -30;
 };
 P = {
