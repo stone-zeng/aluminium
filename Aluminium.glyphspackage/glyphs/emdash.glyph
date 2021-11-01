@@ -1,11 +1,23 @@
 {
-export = 0;
 glyphname = emdash;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(480,244,l),
+(480,280,l),
+(20,280,l),
+(20,244,l)
+);
 }
 );
+width = 500;
+}
+);
+metricLeft = hyphen;
+metricRight = hyphen;
 unicode = 8212;
 }

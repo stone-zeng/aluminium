@@ -8,14 +8,18 @@ shapes = (
 ref = period;
 },
 {
+pos = (144,0);
 ref = period;
 },
 {
+pos = (288,0);
 ref = period;
 }
 );
-width = 156;
+width = 444;
 }
 );
+metricLeft = period;
+metricRight = period;
 unicode = 8230;
 }

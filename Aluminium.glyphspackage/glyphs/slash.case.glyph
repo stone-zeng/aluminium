@@ -1,17 +1,17 @@
 {
-glyphname = endash.case;
+glyphname = slash.case;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
 pos = (0,80);
-ref = endash;
+ref = slash;
 }
 );
-width = 300;
+width = 280;
 }
 );
-metricLeft = endash;
-metricRight = endash;
+metricLeft = slash;
+metricRight = slash;
 }

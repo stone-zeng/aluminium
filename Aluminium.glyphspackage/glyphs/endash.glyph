@@ -7,16 +7,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(20,244,l),
 (280,244,l),
 (280,280,l),
-(20,280,l)
+(20,280,l),
+(20,244,l)
 );
 }
 );
 width = 300;
 }
 );
-metricRight = "=|";
+metricLeft = hyphen;
+metricRight = hyphen;
 unicode = 8211;
 }

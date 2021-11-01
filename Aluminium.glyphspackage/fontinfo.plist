@@ -1,5 +1,5 @@
 {
-.appVersion = "3066";
+.appVersion = "3100";
 .formatVersion = 3;
 date = "2020-12-15 18:22:22 +0000";
 familyName = Aluminium;
@@ -33,10 +33,20 @@ tag = liga;
 },
 {
 automatic = 1;
-code = "sub hyphen by hyphen.case;
+code = "sub periodcentered by periodcentered.case;
+sub slash by slash.case;
+sub backslash by backslash.case;
+sub hyphen by hyphen.case;
 sub endash by endash.case;
+sub emdash by emdash.case;
 sub parenleft by parenleft.case;
 sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub bar by bar.case;
+sub brokenbar by brokenbar.case;
 ";
 tag = case;
 },
@@ -114,11 +124,15 @@ value = 300;
 guides = (
 {
 locked = 1;
-pos = (10,740);
+pos = (0,740);
 },
 {
 locked = 1;
-pos = (38,480);
+pos = (0,480);
+},
+{
+locked = 1;
+pos = (0,262);
 }
 );
 id = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";

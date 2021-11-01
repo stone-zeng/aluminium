@@ -1,11 +1,31 @@
 {
-export = 0;
 glyphname = bullet;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(142,190,o),
+(174,222,o),
+(174,262,cs),
+(174,302,o),
+(142,334,o),
+(102,334,cs),
+(62,334,o),
+(30,302,o),
+(30,262,cs),
+(30,222,o),
+(62,190,o),
+(102,190,cs)
+);
 }
 );
+width = 204;
+}
+);
+metricLeft = periodcentered;
+metricRight = periodcentered;
 unicode = 8226;
 }

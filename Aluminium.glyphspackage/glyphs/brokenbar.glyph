@@ -1,11 +1,32 @@
 {
-export = 0;
 glyphname = brokenbar;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(128,322,l),
+(128,700,l),
+(80,700,l),
+(80,322,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,-176,l),
+(128,202,l),
+(80,202,l),
+(80,-176,l)
+);
 }
 );
+width = 208;
+}
+);
+metricLeft = bar;
+metricRight = bar;
 unicode = 166;
 }

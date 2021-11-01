@@ -9,8 +9,9 @@ pos = (0,80);
 ref = parenleft;
 }
 );
-width = 220;
+width = 202;
 }
 );
 metricLeft = parenleft;
+metricRight = parenleft;
 }

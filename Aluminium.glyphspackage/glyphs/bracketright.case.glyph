@@ -1,18 +1,17 @@
 {
-glyphname = braceright;
+glyphname = bracketright.case;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
 alignment = 1;
-pos = (216,0);
-ref = braceleft;
+pos = (196,0);
+ref = bracketleft.case;
 scale = (-1,1);
 }
 );
-width = 216;
+width = 196;
 }
 );
-unicode = 125;
 }

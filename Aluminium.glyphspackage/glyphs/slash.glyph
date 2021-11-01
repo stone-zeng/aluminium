@@ -1,11 +1,22 @@
 {
-export = 0;
 glyphname = slash;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,-176,l),
+(264,700,l),
+(216,700,l),
+(16,-176,l)
+);
 }
 );
+width = 280;
+}
+);
+metricRight = "=|";
 unicode = 47;
 }

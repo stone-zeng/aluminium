@@ -3,8 +3,16 @@ glyphname = quotedblbase;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 156;
+shapes = (
+{
+pos = (0,-650);
+ref = quotedblright;
 }
 );
+width = 268;
+}
+);
+metricLeft = quotedblright;
+metricRight = quotedblright;
 unicode = 8222;
 }

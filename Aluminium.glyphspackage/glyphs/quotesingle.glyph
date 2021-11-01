@@ -1,11 +1,30 @@
 {
-export = 0;
 glyphname = quotesingle;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+background = {
+shapes = (
+{
+pos = (20,0);
+ref = quoteright;
 }
 );
+};
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(68,546,l),
+(88,546,l),
+(110,720,l),
+(46,720,l)
+);
+}
+);
+width = 156;
+}
+);
+metricRight = "=|";
 unicode = 39;
 }

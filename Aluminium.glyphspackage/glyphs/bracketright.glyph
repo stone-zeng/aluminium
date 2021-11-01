@@ -1,10 +1,17 @@
 {
-export = 0;
 glyphname = bracketright;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+alignment = 1;
+pos = (196,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 196;
 }
 );
 unicode = 93;
