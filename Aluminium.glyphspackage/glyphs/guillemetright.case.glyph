@@ -1,18 +1,17 @@
 {
-glyphname = greaterequal;
+glyphname = guillemetright.case;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
 alignment = 1;
-pos = (480,0);
-ref = lessequal;
+pos = (306,0);
+ref = guillemetleft.case;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 306;
 }
 );
-unicode = 8805;
 }

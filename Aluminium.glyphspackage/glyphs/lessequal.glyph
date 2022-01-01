@@ -1,11 +1,22 @@
 {
-export = 0;
 glyphname = lessequal;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+pos = (0,-182);
+ref = minus;
+},
+{
+pos = (0,40);
+ref = less;
 }
 );
+width = 480;
+}
+);
+metricLeft = less;
+metricRight = less;
 unicode = 8804;
 }

@@ -1,5 +1,5 @@
 {
-.appVersion = "3100";
+.appVersion = "3108";
 .formatVersion = 3;
 date = "2020-12-15 18:22:22 +0000";
 familyName = Aluminium;
@@ -34,6 +34,7 @@ tag = liga;
 {
 automatic = 1;
 code = "sub periodcentered by periodcentered.case;
+sub bullet by bullet.case;
 sub slash by slash.case;
 sub backslash by backslash.case;
 sub hyphen by hyphen.case;
@@ -45,6 +46,10 @@ sub braceleft by braceleft.case;
 sub braceright by braceright.case;
 sub bracketleft by bracketleft.case;
 sub bracketright by bracketright.case;
+sub guillemetleft by guillemetleft.case;
+sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
 sub bar by bar.case;
 sub brokenbar by brokenbar.case;
 ";
@@ -350,7 +355,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2019–2021 by Xiangdong Zeng. All rights reserved.";
+value = "Copyright © 2019–2022 by Xiangdong Zeng. All rights reserved.";
 }
 );
 },

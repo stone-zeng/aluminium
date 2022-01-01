@@ -1,21 +1,17 @@
 {
-glyphname = guillemetleft;
+glyphname = guilsinglleft.case;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
-ref = guilsinglleft;
-},
-{
-pos = (112,0);
+pos = (0,80);
 ref = guilsinglleft;
 }
 );
-width = 306;
+width = 194;
 }
 );
 metricLeft = guilsinglleft;
 metricRight = guilsinglleft;
-unicode = 171;
 }

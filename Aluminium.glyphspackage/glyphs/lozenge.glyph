@@ -1,11 +1,49 @@
 {
-export = 0;
 glyphname = lozenge;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+background = {
+shapes = (
+{
+attr = {
+strokeWidth = 38;
+};
+closed = 1;
+nodes = (
+(52,350,l),
+(152,10,l),
+(252,350,l),
+(152,690,l)
+);
 }
 );
+};
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(169,0,l),
+(272,350,l),
+(169,700,l),
+(135,700,l),
+(32,350,l),
+(135,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(72,350,l),
+(152,623,l),
+(232,350,l),
+(152,77,l)
+);
+}
+);
+width = 304;
+}
+);
+metricRight = "=|";
 unicode = 9674;
 }

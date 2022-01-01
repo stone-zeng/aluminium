@@ -1,11 +1,35 @@
 {
-export = 0;
 glyphname = cent;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,500,l),
+(137,600,l),
+(113,600,l),
+(113,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(137,-100,l),
+(137,0,l),
+(113,0,l),
+(113,-100,l)
+);
+},
+{
+ref = c;
 }
 );
+width = 249;
+}
+);
+metricLeft = c;
+metricRight = c;
 unicode = 162;
 }

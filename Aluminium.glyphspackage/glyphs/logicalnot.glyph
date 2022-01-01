@@ -1,11 +1,25 @@
 {
-export = 0;
 glyphname = logicalnot;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(380,374,l),
+(380,230,l),
+(420,230,l),
+(420,410,l),
+(60,410,l),
+(60,374,l)
+);
 }
 );
+width = 480;
+}
+);
+metricLeft = minus;
+metricRight = minus;
 unicode = 172;
 }

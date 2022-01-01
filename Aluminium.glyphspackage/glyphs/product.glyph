@@ -1,11 +1,65 @@
 {
-export = 0;
 glyphname = product;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,7);
+type = Corner;
 }
 );
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,700,l),
+(40,-100,l),
+(102,-100,l),
+(102,684,l),
+(186,684,l),
+(186,-100,l),
+(248,-100,l),
+(248,700,l)
+);
+}
+);
+width = 288;
+}
+);
+metricLeft = H;
+metricRight = H;
 unicode = 8719;
 }

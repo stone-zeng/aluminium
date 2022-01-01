@@ -1,11 +1,35 @@
 {
-export = 0;
 glyphname = euro;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,398,l),
+(234,422,l),
+(12,422,l),
+(12,398,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(234,298,l),
+(234,322,l),
+(12,322,l),
+(12,298,l)
+);
+},
+{
+pos = (32,0);
+ref = C;
 }
 );
+width = 300;
+}
+);
+metricRight = C;
 unicode = 8364;
 }

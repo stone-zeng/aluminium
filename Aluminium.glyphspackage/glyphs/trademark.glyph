@@ -1,11 +1,177 @@
 {
-export = 0;
 glyphname = trademark;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+background = {
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,10);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,11);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (1,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (1,3);
+type = Corner;
 }
 );
+shapes = (
+{
+closed = 1;
+nodes = (
+(364,0,l),
+(364,567,l),
+(352,567,l),
+(499,0,l),
+(521,0,l),
+(671,700,l),
+(647,700,l),
+(521,113,l),
+(536,113,l),
+(384,700,l),
+(340,700,l),
+(340,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(633,590,l),
+(633,0,l),
+(695,0,l),
+(695,700,l),
+(657,700,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.vertserif;
+options = 1;
+origin = (1,5);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (1,7);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (1,0);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.vertserif;
+origin = (1,2);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,11);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,12);
+scale = (-1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,6);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,7);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,420,l),
+(304,592,l),
+(364,430,l),
+(370,430,l),
+(430,592,l),
+(430,420,l),
+(478,420,l),
+(478,700,l),
+(453,700,l),
+(384,514,l),
+(315,700,l),
+(280,700,l),
+(280,420,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,420,l),
+(160,684,l),
+(240,684,l),
+(240,700,l),
+(32,700,l),
+(32,684,l),
+(112,684,l),
+(112,420,l)
+);
+}
+);
+width = 540;
+}
+);
+metricRight = "=|";
 unicode = 8482;
 }

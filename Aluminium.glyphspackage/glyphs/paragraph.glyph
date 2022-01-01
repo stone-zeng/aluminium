@@ -1,11 +1,47 @@
 {
-export = 0;
 glyphname = paragraph;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,4);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,5);
+type = Corner;
 }
 );
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(238,-100,l),
+(238,684,l),
+(286,684,l),
+(286,-100,l),
+(334,-100,l),
+(334,700,l),
+(190,700,ls),
+(84,700,o),
+(20,634,o),
+(20,530,cs),
+(20,426,o),
+(84,360,o),
+(190,360,c),
+(190,-100,l)
+);
+}
+);
+width = 374;
+}
+);
+metricLeft = "=|P";
+metricRight = n;
 unicode = 182;
 }

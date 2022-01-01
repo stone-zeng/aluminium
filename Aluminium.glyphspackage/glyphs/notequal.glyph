@@ -1,11 +1,26 @@
 {
-export = 0;
 glyphname = notequal;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,150,l),
+(348,550,l),
+(312,550,l),
+(132,150,l)
+);
+},
+{
+ref = equal;
 }
 );
+width = 480;
+}
+);
+metricLeft = equal;
+metricRight = equal;
 unicode = 8800;
 }

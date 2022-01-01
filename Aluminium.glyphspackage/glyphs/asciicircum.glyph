@@ -1,11 +1,25 @@
 {
-export = 0;
 glyphname = asciicircum;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(67,520,l),
+(140,677,l),
+(213,520,l),
+(248,520,l),
+(160,720,l),
+(120,720,l),
+(32,520,l)
+);
 }
 );
+width = 280;
+}
+);
+metricRight = "=|";
 unicode = 94;
 }

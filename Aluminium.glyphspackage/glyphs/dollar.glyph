@@ -1,11 +1,35 @@
 {
-export = 0;
 glyphname = dollar;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(146,700,l),
+(146,800,l),
+(122,800,l),
+(122,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(146,-100,l),
+(146,0,l),
+(122,0,l),
+(122,-100,l)
+);
 }
 );
+width = 268;
+}
+);
+metricLeft = S;
+metricRight = S;
 unicode = 36;
 }
