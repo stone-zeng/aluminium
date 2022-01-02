@@ -1,18 +1,18 @@
 {
-glyphname = one;
+glyphname = one.lf;
 layers = (
 {
 hints = (
 {
 name = _corner.serif;
 origin = (0,0);
-scale = (2.4,-1);
+scale = (2,-1);
 type = Corner;
 },
 {
 name = _corner.serif;
 origin = (0,5);
-scale = (2.4,1);
+scale = (2,1);
 type = Corner;
 }
 );
@@ -21,18 +21,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(171,0,l),
-(171,710,l),
-(31,672,l),
-(31,655,l),
-(109,676,l),
-(109,0,l)
+(136,0,l),
+(136,710,l),
+(10,682,l),
+(10,665,l),
+(74,679,l),
+(74,0,l)
 );
 }
 );
-width = 280;
+width = 206;
 }
 );
-metricWidth = zero;
-unicode = 49;
+metricRight = l;
 }

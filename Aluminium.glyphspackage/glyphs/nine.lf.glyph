@@ -1,0 +1,27 @@
+{
+glyphname = nine.lf;
+layers = (
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (284,700);
+ref = six;
+}
+);
+};
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+alignment = -1;
+pos = (4,0);
+ref = nine;
+}
+);
+width = 288;
+}
+);
+metricLeft = O;
+metricRight = O;
+}

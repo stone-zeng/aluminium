@@ -7,44 +7,44 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(166,140,l),
-(228,140,l),
-(228,250,l),
-(166,250,l)
+(244,140,l),
+(244,250,l),
+(182,250,l),
+(182,140,l)
 );
+},
+{
+pos = (36,160);
+ref = _part.uppercase2;
+scale = (1,-1);
 },
 {
 closed = 1;
 nodes = (
-(20,140,l),
-(82,140,l),
-(82,200,l),
-(20,200,l)
+(98,140,l),
+(98,200,l),
+(36,200,l),
+(36,140,l)
 );
 },
 {
-pos = (20,540);
-ref = _part.uppercase2;
+pos = (76,230);
+ref = _part.uppercase1;
 },
 {
-pos = (20,160);
-ref = _part.uppercase2;
-scale = (1,-1);
-},
-{
-pos = (60,550);
+pos = (76,550);
 ref = _part.uppercase1;
 scale = (1,-1);
 },
 {
-pos = (60,230);
-ref = _part.uppercase1;
+pos = (36,540);
+ref = _part.uppercase2;
 }
 );
-width = 268;
+width = 280;
 }
 );
-metricLeft = "=|C";
-metricRight = O;
+metricRight = "=|";
+metricWidth = zero;
 unicode = 51;
 }

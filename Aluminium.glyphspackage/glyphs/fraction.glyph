@@ -1,11 +1,22 @@
 {
-export = 0;
 glyphname = fraction;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-140,0,l),
+(180,700,l),
+(140,700,l),
+(-180,0,l)
+);
 }
 );
+width = 0;
+}
+);
+metricRight = "=|";
 unicode = 8260;
 }

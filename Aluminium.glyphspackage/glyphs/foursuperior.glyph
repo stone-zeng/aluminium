@@ -1,0 +1,43 @@
+{
+glyphname = foursuperior;
+layers = (
+{
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,6);
+scale = (0.8,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,5);
+scale = (0.8,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,504,l),
+(180,520,l),
+(39,520,l),
+(109,629,l),
+(98,629,l),
+(98,440,l),
+(144,440,l),
+(144,700,l),
+(136,700,l),
+(10,504,l)
+);
+}
+);
+width = 200;
+}
+);
+metricWidth = zerosuperior;
+unicode = 8308;
+}

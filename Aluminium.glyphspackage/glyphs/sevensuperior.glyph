@@ -1,5 +1,5 @@
 {
-glyphname = seven;
+glyphname = sevensuperior;
 layers = (
 {
 hints = (
@@ -7,7 +7,7 @@ hints = (
 name = _corner.vertserif;
 options = 1;
 origin = (0,3);
-scale = (-1,1);
+scale = (-0.8,1);
 type = Corner;
 }
 );
@@ -16,18 +16,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(118,0,l),
-(264,700,l),
-(36,700,l),
-(36,684,l),
-(202,684,l),
-(59,0,l)
+(96,440,l),
+(184,700,l),
+(26,700,l),
+(26,684,l),
+(133,684,l),
+(50,440,l)
 );
 }
 );
-width = 280;
+width = 200;
 }
 );
-metricWidth = zero;
-unicode = 55;
+metricWidth = zerosuperior;
+unicode = 8311;
 }

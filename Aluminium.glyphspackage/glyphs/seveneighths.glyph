@@ -1,11 +1,11 @@
 {
-glyphname = onehalf;
+glyphname = seveneighths;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
 {
-ref = one.numr;
+ref = seven.numr;
 },
 {
 pos = (200,0);
@@ -13,11 +13,11 @@ ref = fraction;
 },
 {
 pos = (200,0);
-ref = two.dnom;
+ref = eight.dnom;
 }
 );
 width = 400;
 }
 );
-unicode = 189;
+unicode = 8542;
 }

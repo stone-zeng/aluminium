@@ -1,0 +1,18 @@
+{
+glyphname = eightinferior;
+layers = (
+{
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+pos = (0,-480);
+ref = eightsuperior;
+}
+);
+width = 200;
+}
+);
+metricLeft = eight;
+metricRight = eight;
+unicode = 8328;
+}

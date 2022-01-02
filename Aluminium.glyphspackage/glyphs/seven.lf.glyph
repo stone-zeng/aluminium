@@ -1,13 +1,13 @@
 {
-glyphname = seven.sups;
+glyphname = seven.lf;
 layers = (
 {
 hints = (
 {
 name = _corner.vertserif;
 options = 1;
-origin = (0,0);
-scale = (-0.8,1);
+origin = (0,3);
+scale = (-1,1);
 type = Corner;
 }
 );
@@ -16,16 +16,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(20,724,l),
-(127,724,l),
-(44,480,l),
-(90,480,l),
-(178,740,l),
-(20,740,l)
+(92,0,l),
+(220,700,l),
+(10,700,l),
+(10,684,l),
+(157,684,l),
+(34,0,l)
 );
 }
 );
-width = 198;
+width = 230;
 }
 );
 }

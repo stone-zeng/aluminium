@@ -12,6 +12,18 @@ name = Languagesystems;
 );
 features = (
 {
+automatic = 1;
+code = "feature sups;
+feature ordn;
+feature case;
+feature pnum;
+feature tnum;
+feature ss01;
+feature ss02;
+";
+tag = aalt;
+},
+{
 code = "sub f f by f_f;
 sub f i by f_i;
 sub f j by f_j;
@@ -30,6 +42,58 @@ sub f.var f.var j.var by f_f_j.var;
 sub f.var f.var l by f_f_l.var;
 ";
 tag = liga;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
 },
 {
 automatic = 1;
@@ -56,16 +120,32 @@ sub brokenbar by brokenbar.case;
 tag = case;
 },
 {
-code = "sub zero by zero.tnum;
-sub one by one.tnum;
-sub two by two.tnum;
-sub three by three.tnum;
-sub four by four.tnum;
-sub five by five.tnum;
-sub six by six.tnum;
-sub seven by seven.tnum;
-sub eight by eight.tnum;
-sub nine by nine.tnum;
+automatic = 1;
+code = "sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero.lf by zero;
+sub one.lf by one;
+sub two.lf by two;
+sub three.lf by three;
+sub four.lf by four;
+sub five.lf by five;
+sub six.lf by six;
+sub seven.lf by seven;
+sub eight.lf by eight;
+sub nine.lf by nine;
 ";
 tag = tnum;
 },
@@ -104,14 +184,6 @@ value = "";
 }
 );
 tag = ss02;
-},
-{
-automatic = 1;
-code = "sub two by two.sups;
-sub six by six.sups;
-sub seven by seven.sups;
-";
-tag = sups;
 }
 );
 fontMaster = (
@@ -129,15 +201,17 @@ value = 300;
 guides = (
 {
 locked = 1;
-pos = (0,740);
-},
-{
-locked = 1;
-pos = (0,480);
+name = Superior;
+pos = (0,440);
 },
 {
 locked = 1;
 pos = (0,262);
+},
+{
+locked = 1;
+name = Superior;
+pos = (0,432);
 }
 );
 id = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
@@ -186,7 +260,7 @@ A = -30;
 A = -60;
 J = -40;
 d = -30;
-four = -30;
+four.lf = -30;
 };
 "@MMK_L_f" = {
 "@MMK_R_n" = -20;
@@ -223,7 +297,7 @@ s = -20;
 "@MMK_R_v" = -20;
 A = -40;
 hyphen = -30;
-seven = -40;
+seven.lf = -40;
 };
 "@MMK_L_x" = {
 "@MMK_R_v" = -30;
@@ -246,7 +320,7 @@ F = {
 "@MMK_R_peroid" = -40;
 J = -60;
 d = -20;
-four = -30;
+four.lf = -30;
 i = -20;
 j = -20;
 };
@@ -266,7 +340,7 @@ P = {
 "@MMK_R_v" = -40;
 A = -40;
 J = -60;
-four = -30;
+four.lf = -30;
 };
 S = {
 "@MMK_R_v" = -30;
@@ -279,7 +353,7 @@ T = {
 "@MMK_R_v" = -30;
 J = -40;
 d = -20;
-four = -10;
+four.lf = -10;
 };
 Y = {
 "@MMK_R_colon" = -20;
@@ -295,7 +369,7 @@ s = -10;
 e = {
 s = -10;
 };
-four = {
+four.lf = {
 "@MMK_R_peroid" = -10;
 };
 hyphen = {
@@ -310,7 +384,7 @@ s = {
 f = -20;
 t = -20;
 };
-seven = {
+seven.lf = {
 "@MMK_R_colon" = -40;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -20;

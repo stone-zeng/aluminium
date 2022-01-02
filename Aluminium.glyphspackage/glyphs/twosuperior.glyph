@@ -1,0 +1,49 @@
+{
+glyphname = twosuperior;
+layers = (
+{
+hints = (
+{
+name = _corner.vertserif;
+options = 1;
+origin = (0,1);
+scale = (-0.8,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(174,440,l),
+(174,456,l),
+(68,456,l),
+(68,519,o),
+(174,558,o),
+(174,639,cs),
+(174,663,o),
+(165,708,o),
+(106,708,cs),
+(26,708,o),
+(26,627,o),
+(26,618,c),
+(74,618,l),
+(74,633,o),
+(76,692,o),
+(105,692,cs),
+(126,692,o),
+(130,661,o),
+(130,646,cs),
+(130,567,o),
+(26,558,o),
+(26,440,c)
+);
+}
+);
+width = 200;
+}
+);
+metricWidth = zerosuperior;
+unicode = 178;
+}

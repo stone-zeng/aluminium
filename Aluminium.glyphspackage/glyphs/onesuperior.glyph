@@ -1,0 +1,67 @@
+{
+glyphname = onesuperior;
+layers = (
+{
+background = {
+hints = (
+{
+name = _corner.serif;
+origin = (0,0);
+scale = (1.2,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,5);
+scale = (1.2,1);
+type = Corner;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,520,l),
+(126,750,l),
+(-14,712,l),
+(-14,695,l),
+(64,716,l),
+(64,520,l)
+);
+}
+);
+};
+hints = (
+{
+name = _corner.serif;
+origin = (0,0);
+scale = (1.5,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+origin = (0,5);
+scale = (1.5,1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,440,l),
+(123,710,l),
+(24,683,l),
+(24,666,l),
+(77,681,l),
+(77,440,l)
+);
+}
+);
+width = 200;
+}
+);
+metricWidth = zerosuperior;
+unicode = 185;
+}

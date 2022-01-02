@@ -5,14 +5,14 @@ layers = (
 hints = (
 {
 name = _corner.serif;
-origin = (1,4);
+options = 1;
+origin = (1,0);
+scale = (-1,1);
 type = Corner;
 },
 {
 name = _corner.serif;
-options = 1;
-origin = (1,0);
-scale = (-1,1);
+origin = (1,4);
 type = Corner;
 }
 );
@@ -21,27 +21,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(236,171,l),
-(236,187,l),
-(18,187,l),
-(186,700,l),
-(164,700,l),
-(-10,171,l)
+(250,171,l),
+(250,187,l),
+(32,187,l),
+(200,700,l),
+(178,700,l),
+(4,171,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(188,0,l),
-(188,700,l),
-(176,700,l),
-(126,546,l),
-(126,0,l)
+(202,0,l),
+(202,700,l),
+(190,700,l),
+(140,546,l),
+(140,0,l)
 );
 }
 );
-width = 246;
+width = 280;
 }
 );
+metricWidth = zero;
 unicode = 52;
 }
