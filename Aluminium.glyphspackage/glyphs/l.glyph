@@ -40,7 +40,6 @@ type = Corner;
 {
 name = _corner.serif;
 origin = (0,3);
-scale = (-1,-1);
 type = Corner;
 }
 );

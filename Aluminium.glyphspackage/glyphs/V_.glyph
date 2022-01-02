@@ -18,26 +18,25 @@ pos = (166,700);
 hints = (
 {
 name = _corner.serif;
-origin = (0,0);
-type = Corner;
-},
-{
-name = _corner.serif;
-options = 1;
 origin = (0,1);
-scale = (-1,1);
-type = Corner;
-},
-{
-name = _corner.serif;
-origin = (0,4);
-scale = (-1,-1);
 type = Corner;
 },
 {
 name = _corner.serif;
 options = 1;
+origin = (0,2);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
 origin = (0,5);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,6);
 scale = (1,-1);
 type = Corner;
 }
@@ -47,14 +46,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(179,-8,l),
 (297,700,l),
 (274,700,l),
 (182,146,l),
 (191,146,l),
 (107,700,l),
 (35,700,l),
-(153,-8,l),
-(179,-8,l)
+(153,-8,l)
 );
 }
 );

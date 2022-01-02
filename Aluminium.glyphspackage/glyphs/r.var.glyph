@@ -17,20 +17,34 @@ pos = (109,500);
 hints = (
 {
 name = _corner.serif;
+origin = (0,0);
+scale = (1.4,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
 options = 1;
-origin = (1,4);
+origin = (0,2);
 scale = (1,-1);
 type = Corner;
 },
 {
 name = _corner.serif;
-origin = (1,5);
-scale = (-1,-1);
+origin = (0,3);
 type = Corner;
 }
 );
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
 shapes = (
+{
+closed = 1;
+nodes = (
+(100,0,l),
+(100,500,l),
+(40,500,l),
+(40,0,l)
+);
+},
 {
 closed = 1;
 nodes = (
@@ -49,17 +63,6 @@ nodes = (
 (95,468,o),
 (80,437,c),
 (80,414,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(140,0,l),
-(140,16,l),
-(100,16,l),
-(100,500,l),
-(40,500,l),
-(40,0,l)
 );
 }
 );

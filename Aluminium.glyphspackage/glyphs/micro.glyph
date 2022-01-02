@@ -1,11 +1,88 @@
 {
-export = 0;
 glyphname = micro;
 layers = (
 {
-layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+background = {
+shapes = (
+{
+ref = u;
 }
 );
+};
+hints = (
+{
+name = _corner.serif;
+options = 1;
+origin = (0,0);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,2);
+scale = (1,-1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (0,2);
+scale = (-1,1);
+type = Corner;
+},
+{
+name = _corner.serif;
+options = 1;
+origin = (2,2);
+scale = (1,-1);
+type = Corner;
+}
+);
+layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,0,l),
+(240,500,l),
+(180,500,l),
+(180,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(60,110,l),
+(60,75,o),
+(70,-8,o),
+(124,-8,cs),
+(163,-8,o),
+(187,34,o),
+(200,84,c),
+(200,101,l),
+(183,44,o),
+(162,23,o),
+(136,23,cs),
+(100,23,o),
+(100,63,o),
+(100,110,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(100,-100,l),
+(100,500,l),
+(40,500,l),
+(40,-100,l)
+);
+}
+);
+width = 280;
+}
+);
+metricLeft = u;
+metricRight = u;
 unicode = 181;
 }

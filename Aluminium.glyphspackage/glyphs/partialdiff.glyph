@@ -1,11 +1,53 @@
 {
-export = 0;
 glyphname = partialdiff;
 layers = (
 {
 layerId = "B8B720EE-CA8B-4072-B286-8C23F1A5F625";
-width = 600;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,140,l),
+(225,340,ls),
+(225,544,o),
+(215,728,o),
+(93,728,cs),
+(38,728,o),
+(12,691,o),
+(-5,662,c),
+(9,654,l),
+(26,680,o),
+(49,711,o),
+(85,711,cs),
+(165,711,o),
+(165,566,o),
+(165,350,cs),
+(165,140,l)
+);
+},
+{
+pos = (25,160);
+ref = _part.lowercase2;
+scale = (1,-1);
+},
+{
+closed = 1;
+nodes = (
+(85,140,l),
+(85,320,l),
+(25,320,l),
+(25,140,l)
+);
+},
+{
+pos = (25,300);
+ref = _part.lowercase2;
 }
 );
+width = 250;
+}
+);
+metricLeft = "=o-30";
+metricRight = o;
 unicode = 8706;
 }
