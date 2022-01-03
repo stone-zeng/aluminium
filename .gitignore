@@ -13,6 +13,7 @@
 *.nav
 *.out
 *.snm
+*.synctex.gz
 *.toc
 *.xdv
 
